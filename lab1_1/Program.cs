@@ -1,6 +1,10 @@
-﻿//высокий
 
-Console.Write("Введите х:");
+
+//высокий 11 вариант
+
+Console.WriteLine("Введите x:");
 double x = double.Parse(Console.ReadLine());
-double K = (Math.Sqrt(Math.Pow(3 + x, 6) - Math.Log(x))) / (Math.Exp(0) + Math.Asin(6 * x * x));
-Console.WriteLine($"K={K:F2}");
+Console.WriteLine("Введите y:");
+double y = double.Parse(Console.ReadLine());
+double I = (2.33*Math.Log ( Math.Sqrt(1+Math.Cos(y)*Math.Cos(y))))/(Math.Exp(y) + Math.Sin(x)*Math.Sin(x));
+Console.WriteLine($"I={I:F2}");
